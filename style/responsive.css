@@ -1,0 +1,105 @@
+@media screen and (max-width: 940px) {
+    header .container {
+      margin-left: 5px;
+    }
+
+   .tab{
+       font-size: 0.8em;
+   }
+
+   header nav{ 
+  margin-left: 140px;    
+}
+       
+   #barraPesquisa{
+       margin-left: 470px;
+   }
+
+   /* redimensionamento da imagem principal*/
+
+   .filme-principal {  
+  background: url("../img/GOT-wide-corte-red.jpg"); 
+   background-size:cover;
+  height:40vh;  
+  width: 100%;  
+  display: flex;
+  min-height: 20vh;
+  
+   }
+
+   /*redimensionamento dos filmes disponiveis*/
+
+   .box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin-left: 50px;
+  max-width: 30vw;
+  max-height: 50vh;
+}
+}
+
+ /* redimensionamento inicial da imagem principal*/
+
+@media screen and (max-width: 1150px) {
+   .filme-principal {  
+  background: url("../img/GOT-wide-maior.jpg"); 
+   background-size:cover;
+  height: 35vh;  
+  width: 100%;  
+  display: flex;
+  min-height: 15vh;
+  
+   }
+}
+
+@media screen and (max-width: 950px) {
+   .filme-principal {  
+  background: url("../img/GOT-wide-maior.jpg"); 
+   background-size:cover;
+  height: 30vh;  
+  width: 100%;  
+  display: flex;
+  min-height: 15vh;
+  
+   }
+}
+
+@media screen and (max-width: 800px) {
+   .filme-principal {  
+  background: url("../img/GOT-wide-maior.jpg"); 
+   background-size:cover;
+  height: 24vh;  
+  width: 100%;  
+  display: flex;
+  min-height: 15vh;
+  
+   }
+}
+
+/* redimensionamento final da imagem principal*/
+@media screen and (max-width: 630px) {
+   .filme-principal {  
+  background: url("../img/GOT-wide-corte-red.jpg"); 
+   background-size:cover;
+  height: 170px;  
+  width: 100%;  
+  display: flex;
+  min-height: 20vh;
+  
+   }
+}
+
+
+/* redimensionamento do rodapé com a diminuição da tela*/
+@media screen and (max-width: 1000px) {
+    #footerText {
+        font-size: 1.3em;
+        margin-top: 10px;
+    }
+
+    footer p{
+        position: absolute;
+        margin-top: 60px;
+    }
+}
